@@ -25,7 +25,7 @@ const Landing = () => {
               </a>
             </nav>
           </div>
-          <div className="mt-8 bg-[pink] justify-center text-center rounded shadow md:m-6 m-4">
+          <div className="mt-8 bg-[gray-200] justify-center text-center rounded shadow md:m-6 m-4">
             <h2 className="text-2xl font-bold text-gray-800">
               The Easiest Task Management App
             </h2>
