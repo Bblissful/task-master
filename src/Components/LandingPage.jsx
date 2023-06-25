@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navigation from "./Navigation";
 
 
 const Landing = () => {
   return (
-    <div className="bg-gray-100">
+    <><Navigation /><div className="bg-gray-100">
       <section className="bg-white py-6">
         <div className="container mx-auto px-4">
           {/* Logo and Navigation */}
@@ -24,7 +25,7 @@ const Landing = () => {
               </a>
             </nav>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 bg-[pink] justify-center text-center rounded shadow md:m-6 m-4">
             <h2 className="text-2xl font-bold text-gray-800">
               The Easiest Task Management App
             </h2>
@@ -83,9 +84,7 @@ const Landing = () => {
           </p>
           <div className="flex justify-center">
             <button className="bg-white text-blue-500 py-3 px-6 rounded-full font-bold">
-              <Link
-                to="/signup"
-                className=" py-2 px-2 rounded">
+              <Link to="/signup" className=" py-2 px-2 rounded">
                 GET STARTED
               </Link>
             </button>
@@ -129,7 +128,7 @@ const Landing = () => {
           </div>
         </div>
       </footer>
-    </div>
+    </div></>
   );
 };
 

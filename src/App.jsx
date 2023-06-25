@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div>
-        <Navigation/>
+        {/* <Navigation/> */}
         <Routes>
           <Route path='/' element={<Landing />} />
           <Route path='/login'm element={<Login/>}/>
