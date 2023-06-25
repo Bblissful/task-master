@@ -9,5 +9,5 @@ textarea::placeholder {
 
 @font-face {
   font-family: "Font1";
-  src: url("/Fonts/Font1.ttf") format("truetype");
+  src: url("/Public/Font1") format("truetype");
 }
