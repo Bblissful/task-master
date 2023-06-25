@@ -7,14 +7,14 @@ const Navigation = () => {
       {/* h-0 w-full */}
       
       <figure className="w-[20%] md:w-[13%]">
-        <img src="/Images/Logo.png" alt="logo" className="md:p-4 p-2 w-full" />
+        <img src="/Images/Logo.png" alt="logo" className="md:p-4  w-full " />
       </figure>
-      <ul className="flex justify-between p-6">
+      <ul className="flex justify-between py-6">
         <li className="p-1 md:p-4 md:m-2">
           <Link
             to="#"
             className=" bg-[#0504AA] text-white py-2 px-2 rounded">
-            CONTACT US
+           CONTACT
           </Link>
         </li>
         <li className="p-1 md:p-4 md:m-2">

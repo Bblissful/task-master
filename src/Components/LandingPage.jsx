@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const Landing = () => {
   return (
@@ -8,62 +10,62 @@ const Landing = () => {
           {/* Logo and Navigation */}
           <div className="flex justify-center items-center">
             <nav className="space-x-4">
-            
-              <a href="#" className="text-gray-600 hover:text-blue-500">
+              <a href="#" className="text-gray-600 hover:text-[#0504AA]">
                 Tasks
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-500">
+              <a href="#" className="text-gray-600 hover:text-[#0504AA]">
                 Duties
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-500">
+              <a href="#" className="text-gray-600 hover:text-[#0504AA]">
                 Deadlines
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-500">
+              <a href="#" className="text-gray-600 hover:text-[#0504AA]">
                 Opportunities
               </a>
             </nav>
-         
           </div>
-          {/* Hero Section */}
           <div className="mt-8">
             <h2 className="text-2xl font-bold text-gray-800">
               The Easiest Task Management App
             </h2>
             <p className="mt-4 text-gray-600">
-              Transform your marketing and grow your business with HubSpot's
-              powerful suite of tools.
+              Cut down on daily schedule by listing, knowing and tracking them,
+              take charge and curtail beating deadlines.
             </p>
-            <button className="mt-6 bg-blue-500 text-white py-3 px-6 rounded">
-              Learn More
+            <button className="mt-6 text-white py-3 px-6 rounded">
+              <Link
+                to="/signup"
+                className=" bg-[#0504AA] text-white py-2 px-2 rounded">
+                Start Now
+              </Link>
             </button>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-8">Key Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded shadow p-6">
-              <h3 className="text-2xl font-bold mb-4">Marketing Automation</h3>
+              <h3 className="text-2xl font-bold mb-4">Due dates</h3>
               <p className="text-gray-600">
-                Automate your marketing efforts and drive more leads with
-                targeted campaigns.
+                Ability to add due date and time to tasks and prioritize tasks
+                and prioritize them according to their due dates and time to
+                effectively manage them.
               </p>
             </div>
             <div className="bg-white rounded shadow p-6">
-              <h3 className="text-2xl font-bold mb-4">Sales CRM</h3>
+              <h3 className="text-2xl font-bold mb-4">Track progress</h3>
               <p className="text-gray-600">
-                Manage your contacts, track deals, and close more sales with our
-                intuitive CRM.
+                Manage your tasks, track progress, and complete completed ons.
               </p>
             </div>
             <div className="bg-white rounded shadow p-6">
-              <h3 className="text-2xl font-bold mb-4">Content Management</h3>
+              <h3 className="text-2xl font-bold mb-4">Edit and delete</h3>
               <p className="text-gray-600">
-                Create and optimize your website content with our easy-to-use
-                content management system.
+                Edit and delete tasks after adding them. You can also extend
+                deadlines as much as possible
               </p>
             </div>
           </div>
@@ -74,14 +76,18 @@ const Landing = () => {
       <section className="py-12 bg-blue-500">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-white text-center mb-4">
-            Start Growing with HubSpot Today
+            Have a happy and easy day today with Task Master
           </h2>
           <p className="text-white text-center mb-8">
-            Join thousands of businesses that use HubSpot to reach their goals.
+            Join thousands of individuals and take advantage of this.
           </p>
           <div className="flex justify-center">
             <button className="bg-white text-blue-500 py-3 px-6 rounded-full font-bold">
-              Get Started
+              <Link
+                to="/signup"
+                className=" py-2 px-2 rounded">
+                GET STARTED
+              </Link>
             </button>
           </div>
         </div>
@@ -92,10 +98,10 @@ const Landing = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between">
             <div>
-              <h3 className="text-xl font-bold mb-4">Company Name</h3>
-              <p className="text-gray-400">Address, City, State, Zip Code</p>
-              <p className="text-gray-400">Phone: (123) 456-7890</p>
-              <p className="text-gray-400">Email: info@example.com</p>
+              <h3 className="text-xl font-bold mb-4">Task Master</h3>
+              <p className="text-gray-400">Enugu, Nigeria</p>
+              <p className="text-gray-400">Phone: +000000000</p>
+              <p className="text-gray-400">Email: blessingedeh@gmail.com</p>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Links</h3>
@@ -111,11 +117,7 @@ const Landing = () => {
                       Contact Us
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
-                      Privacy Policy
-                    </a>
-                  </li>
+
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
                       Terms of Service
