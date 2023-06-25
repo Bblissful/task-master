@@ -43,7 +43,7 @@ const Login = ({ onLogin }) => {
             <Link to="/task">Log In</Link>
           </button>
         </form>
-        <p>
+        <p className="pb-3" >
           Don't have an Account?
           <Link to="/signup">
             <i className="text-[#0504AA]">Sign Up</i>
