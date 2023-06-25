@@ -6,3 +6,8 @@ input[type="text"]::placeholder,
 textarea::placeholder {
     background-color: transparent;
 }
+
+@font-face {
+  font-family: "Font1";
+  src: url("/Fonts/Font1.ttf") format("truetype");
+}
