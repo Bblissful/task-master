@@ -13,14 +13,14 @@ const Navigation = () => {
         <li className="p-1 md:p-4 md:m-2">
           <Link
             to="#"
-            className=" bg-[#0504AA] text-white py-1 px-1 rounded">
+            className="font-bold text-[#0504AA] py-1 px-1 rounded">
            CONTACT
           </Link>
         </li>
         <li className="p-1 md:p-4 md:m-2">
           <Link
             to="/signup"
-            className=" bg-[#0504AA] text-white py-1 px-1 rounded">
+            className="font-bold text-[#0504AA] py-1 px-1 rounded">
             GET STARTED
           </Link>
         </li>
