@@ -45,7 +45,7 @@ const Login = ({ onLogin }) => {
         </form>
         <p>
           Don't have an Account?
-          <Link to="/login">
+          <Link to="/signup">
             <i className="text-[#0504AA]">Sign Up</i>
           </Link>
         </p>

@@ -10,7 +10,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="p-10 md:p-20 justify-center text-center bg-gray-100">
+    <div className="p-5 md:p-20 justify-center text-center bg-gray-100">
       <div className="shadow bg-white md:m-20 m-10 py-10 rounded">
         <figure className=" justify-center text-center">
           <img
