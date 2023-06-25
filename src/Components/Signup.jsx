@@ -41,7 +41,7 @@ const Signup = () => {
             <Link to="/task">Sign up</Link>
           </button>
         </form>
-        <p>
+        <p className="pb-3" >
           Already have an Account?
           <Link to="/login">
             <i className="text-[#0504AA]">Log In</i>
