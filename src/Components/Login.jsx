@@ -12,8 +12,8 @@ const Login = ({ onLogin }) => {
   };
 
   return (
-    <div className="p-5 md:p-20 justify-center text-center bg-blue-200">
-      <div className="shadow bg-white md:m-20 m-10 py-10 rounded">
+    <div className="py-5 px-1 md:py-20 md:px-20 justify-center text-center bg-blue-200">
+      <div className="shadow bg-white md:m-20 m-10 py-0 md:py-10 rounded">
         <figure className=" justify-center text-center">
           <img
             src="Images/Logo.png"
@@ -39,7 +39,7 @@ const Login = ({ onLogin }) => {
           />
           <button
             type="submit"
-            className="my-10 bg-[#0504AA] hover:bg-[#5a5af7] text-white py-2 px-4 rounded">
+            className="my-5 bg-[#0504AA] hover:bg-[#5a5af7] text-white py-2 px-4 rounded">
             <Link to="/task">Log In</Link>
           </button>
         </form>
