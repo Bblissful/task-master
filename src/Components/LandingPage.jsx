@@ -27,9 +27,9 @@ const Landing = () => {
               </a>
             </nav>
           </div>
-          <div className="mt-8 bg-blue-200 justify-center text-center rounded shadow md:m-6 m-2">
+          <div className="mt-8 bg-blue-200 justify-center text-center rounded shadow md:m-6 m-1">
             <h2 className="text-2xl font-bold text-gray-800">
-              The Easiest Task Management App
+              Start Using Task Master App
             </h2>
             <p className="mt-4 text-gray-600">
               Cut down on daily schedule by listing, knowing and tracking them,
