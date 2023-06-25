@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="font-Font1" >
         {/* <Navigation/> */}
         <Routes>
           <Route path='/' element={<Landing />} />
