@@ -33,7 +33,7 @@ const Landing = () => {
             </h2>
             <p className="mt-4 text-gray-600">
               Cut down on daily schedule by listing, knowing and tracking them,
-              take charge and curtail beating deadlines.
+              take charge and curtail battling with deadlines.
             </p>
             <button className="mt-6 text-white py-3 px-6 rounded">
               <Link
@@ -78,7 +78,7 @@ const Landing = () => {
       {/* Call-to-Action Section */}
       <section className="py-12 bg-blue-500">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-black text-center mb-4">
+          <h2 className="text-3xl md:font-bold text-black text-center mb-4">
             Have a happy and easy day today with Task Master
           </h2>
           <p className="text-white text-center mb-8">
