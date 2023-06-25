@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
+import 'tailwindcss/tailwind.css';
+
 
 
 const Landing = () => {
   return (
-    <><Navigation /><div className="bg-gray-100">
+    <><Navigation /><div className="big-gray-100 font-font1">
       <section className="bg-white py-6">
         <div className="container mx-auto px-4">
           {/* Logo and Navigation */}
